@@ -10,12 +10,8 @@ public class delraw {
 		List<String> cr2 = new ArrayList<String>();
 		List<String> jpg = new ArrayList<String>();
 
-		//String canonicalPath = new File(".").getCanonicalPath();
-		
-        //System.out.println("Current directory path using canonical path method :- " + canonicalPath);
 
 		File[] files = new File(".").listFiles();
-		//If this pathname does not denote a directory, then listFiles() returns null. 
 
 		String s;
 		
